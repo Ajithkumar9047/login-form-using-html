@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <dev class="hero">
+        <nav>
+            <img src="logo.png" class="logo" >
+            <ul>
+                <li ><a class="highlighted" href="test.html">Home</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Transfer</button>
+                    <div class="dropdown-content">
+                      <a href="#">Wire transfer</a>
+                      
+                    </div>
+                  </div></li>
+                <li><a href="#">Report</a></li>
+            </ul>
+            <img src="image.jpg" class="user-pic" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="image.jpg" >
+                        <h3>Ajithkumar</h3>
+                    </div>
+                    <hr>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="profile.png" >
+                        <p>Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="info.png" >
+                        <p>Help center</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="logout.png" >
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+
+       </nav>
+    </dev>
+    <script src="script.js"></script>
+</body>
+</html>
