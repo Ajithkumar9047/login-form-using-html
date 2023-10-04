@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.style.backgroundImage = `url(${imageUrl})`;
   }
 
-  setInterval(changeBackground, 2000);
+  setInterval(changeBackground, 9000);
 
   loginForm.addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent the form from submitting
